@@ -1,0 +1,116 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Arnoldia.github.io/Kircher Magnes/manifests/magnes_medicine_quaesto_manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://cb17ab93-d835-4cae-8f0c-e569276be668",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://6087fffc-e831-4baf-808d-912189887feb",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 3508,
+      "width" : 2479,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b0c1321f-0047-4417-8694-9aa8288c9bd2",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://files.transkribus.eu/iiif/2/TXASWJLCXEUSPHWYYGBLLXHR/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://files.transkribus.eu/iiif/2/TXASWJLCXEUSPHWYYGBLLXHR",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 8696332,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 3508,
+          "width" : 2479
+        },
+        "on" : "http://6087fffc-e831-4baf-808d-912189887feb"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://766ed896-5600-4358-a18e-f3e8c5c8a726",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 3508,
+      "width" : 2479,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://d8922a26-d1ac-4a89-8456-a6f41116cecd",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://files.transkribus.eu/iiif/2/JMGHRTLRHXDWIFCGIYQYAIKF/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://files.transkribus.eu/iiif/2/JMGHRTLRHXDWIFCGIYQYAIKF",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 8696332,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 3508,
+          "width" : 2479
+        },
+        "on" : "http://766ed896-5600-4358-a18e-f3e8c5c8a726"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://e9c3dd62-405f-40d6-a915-09bead8b7910",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 3508,
+      "width" : 2479,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b1248067-94c2-4050-932a-f3ef3e6cddc9",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://files.transkribus.eu/iiif/2/POMADBRJVXZLMTIQMMDGKGFY/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://files.transkribus.eu/iiif/2/POMADBRJVXZLMTIQMMDGKGFY",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 8696332,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 3508,
+          "width" : 2479
+        },
+        "on" : "http://e9c3dd62-405f-40d6-a915-09bead8b7910"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
